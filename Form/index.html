@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1 id="title">Galgotias University Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us to improve the facility</p>
+
+<div id="body">
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  
+   <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+  
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+  
+  <p>Which  Quality Do You Think make Profeccer A Good Profecer:</p>
+  <select id="dropdown">
+    
+    <option value="default">Nothing</option>
+    <option value="He has a moral center.">He has good Knowledge.</option>
+    <option value="He stands for something.">He Understand the Student.</option>
+    <option value="He shuns the limelight.">He knew how to teach.</option>
+    <option value="He protects his team.">He create team for good preojects</option>
+    <option value="He adapts to strengths and weaknesses.">He adapts everyone , and make everyone better .</option>
+    
+  </select>
+  
+  <p>Which subject Teacher Do u Like </p>
+  
+  <input type="radio" name="movie" value="1">Machine Learning</input>
+  <br>
+  <input type="radio" name="movie" value="2">Web Devlopment</input>
+  <br>
+ <input type="radio" name="movies" value="3">Game Development</input>
+<br>
+ <input type="radio" name="movies" value="4">App Development</input>
+<br>
+ <input type="radio" name="movies" value="5">A.I.</input>
+<br>
+ <input type="radio" name="movies" value="6">Soft Skill</input>
+<br>
+ <input type="radio" name="movies" value="7">Data Structures</input>
+
+<p>Which Of The Other University teacher do you like</p>
+
+<input type="checkbox" name="avenger" value="1">DTU</input>
+<br>
+ <input type="checkbox" name="avengers" value="2">AKTU </input>
+<br>
+ <input type="checkbox" name="avengers" value="3">CU</input>
+<br>
+ <input type="checkbox" name="avengers" value="4">DU</input>
+<br>
+ <input type="checkbox" name="avengers" value="5">BHU</input>
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+            
+</form>
+
+</div>
+</body>
+</html>
