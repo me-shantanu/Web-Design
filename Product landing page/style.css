@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    background-color: rgb(236, 197, 197);
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter
+}
+.logo .logo-text{
+    margin-left: 2px;
+    margin-bottom: 2px;
+    font-size: 1.4em;
+    padding-left: -2px;
+}
+.logo .logo-text-main{
+    color: black;
+    font-size: 1.5em;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    margin-top: 30px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+.navbar{
+    margin-bottom: 60px;
+    margin-top: 5px;
+}
+.start-feature{
+  text-align: center;
+}
+.feature-text{
+    color: gray;
+}
+.feature-text-str{
+    color: rgb(19, 16, 16);
+}
+.feature-input{
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.feature-btn{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.feature-fa{
+    text-align: justify;
+    
+}
+.feature-icon{
+    color: rgb(59, 3, 3);
+}
+.feature-x{
+    text-align: justify;
+    margin-right: 40px;
+}
+.feature-y{
+    text-align: center;
+    
+}
