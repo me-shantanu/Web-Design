@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+    background-color: gainsboro;
+}
+.main-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.main-text{
+    text-align: center;
+    color: gray;
+    font-size: 6em;
+    animation-name: shan;
+    animation-duration: 2s;
+}
+.sub-main-text{
+    text-align: center;
+    color: gray;
+    animation-name: shan;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode:backwards; 
+}
+.change-main-text{
+    color: black;
+}
+@keyframes shan{
+    0%{
+        transform: translate(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+.section-dis{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+.about-image{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+.about-main-text{
+    text-align: center;
+    color: black;
+}
+.about-text{
+    text-align: auto;
+    font-size:larger;
+    margin-left: 30px;
+}
+.about-main{
+    background-color: grey;
+}
+.list{
+    align-content: center;
+    align-items: center;
+}
+.list-item{
+    font-size: 1.2em;
+}
+.finial-main{
+    background-color: grey;
+}
+.finial{
+    text-align: center;
+}
